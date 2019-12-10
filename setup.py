@@ -7,15 +7,15 @@ with open("requirements.txt", "r") as fh:
     INSTALL_REQUIRES = [l.split('#')[0].strip() for l in fh if not l.strip().startswith('#')]
 
 setuptools.setup(
-    name="longtail",
+    name="longtail_modified",
     version="0.0.1",
-    author="Dmitry Mottl",
-    author_email="dmitry.mottl@gmail.com",
+    author="SN",
+    author_email="shrutinaik.info@gmail.com",
     license="MIT",
     description="Transforms RV from the given empirical distribution to the standard normal",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Mottl/longtail",
+    url="https://github.com/transpersonify/longtail_modified",
     keywords="random-variable-transformations probability-distribution probability-density-function",
     packages=setuptools.find_packages(),
     classifiers=[
