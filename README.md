@@ -7,7 +7,7 @@
 
 ## Installation
 ```bash
-pip install -e git+https://github.com/transpersonify/longtail_modified.git#egg=longtail
+pip install -e git+https://github.com/transpersonify/longtail_modified.git#egg=longtail_modified
 ```
 
 ## Usage
